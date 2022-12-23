@@ -1,0 +1,51 @@
+body{
+    background-image: url(imagens/pexels-creative-vix-9754.jpg);
+    background-size: cover;
+}
+
+h1, h2{
+    text-align: center;
+    color: #1F3238;
+}
+
+p{
+    color: #1C2A2B;
+}
+main{
+    height: 600px;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lista{
+    border-color: #547B8C;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.redes {
+	display: flex;
+    list-style-type:none;
+    padding-right: 14px;
+    gap: 2%;
+    background-size: cover;
+}
+a:link {
+    text-decoration: none;
+    color: blue;
+
+}
+a:visited{
+    color: rgb(54, 0, 124);
+}
+   
+a:hover {
+    text-decoration: underline;
+    color:#f00;
+
+   }

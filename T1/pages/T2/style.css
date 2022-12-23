@@ -1,0 +1,149 @@
+body{
+    background-color: #002434;
+    
+}
+.cabeçalho{
+    color: #FFFFFF;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+}
+.cabeçalho a{
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, .surf p{
+    color: #FFFFFF;
+
+}
+
+span{
+    color:#00B6ED;
+}
+
+main{
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.surf{
+    background-repeat: no-repeat;
+    background-image: url(img/surf.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content{
+    margin: 0 0 7rem 4rem;
+}
+
+.banner-content > h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.banner-content > p{
+    margin: 0;
+}
+
+#button{
+    box-sizing: content-box;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:#03BEEF ;
+    background-color: #03BEEF;
+    padding:5px 5px 5px 5px ;
+    margin: 5px 150px 5px 5px;
+}
+
+.box{
+    box-sizing: border-box;
+    padding: 15px 15px;
+    flex: 33.333%;
+}
+.box-content{
+    background-color:#0076AA ;
+    padding: 15px 15px;
+}
+
+#boxes{
+    color: #FFFFFF;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.holly{
+    display: flex;
+
+}
+
+.mec{
+    gap: 15px;
+}
+
+    .word{
+        display: flex;
+    }
+    .word_p{
+        padding: 0 15px 15px;
+        margin: 0 5px 5px;
+    }
+
+    .word_p > p{
+        margin: 0 0 15px 0;
+    }
+
+    .moon{
+     background-color: #D5F0FF;
+        display: flex;
+        padding: 15px 15px;
+     margin: 5px 5px;
+    }
+
+footer{
+    background-color: #D5F0FF;
+
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 25px;
+    color: #0076AA;
+}
+
+.header-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#button a{
+    text-decoration: none;
+     color: white;
+}
+
+.aux a{
+    text-decoration: none;
+    color: #0076AA;
+}
+
+.links a{
+    text-decoration: none;
+    color: #0076AA;
+}
