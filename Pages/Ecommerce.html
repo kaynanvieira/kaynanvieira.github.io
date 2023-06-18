@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="Ecommerce.css">
+    <script src="../Pages/Ecommerce.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="../Imagens/favicon.ico" alt="Logo">
+    </div>
+    <ul class="menu">
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../Pages/produtos.html">Produtos</a></li>
+        <li><a href="../Pages/ingredientes.html">Ingredientes</a></li>
+        <li><a href="../Pages/Ecommerce.html">E-commerce</a></li>
+        <li><a href="../Pages/FastFood.html">Fast Food</a></li>
+    </ul>
+
+</header>
+    <main>
+          <section>
+            <div class="top">
+                <h1>E-commerce</h1>
+                <p>Explore a comodidade e a praticidade do nosso E-commerce especializado em comida japonesa. Navegue pelo nosso site e descubra uma ampla variedade de produtos e ingredientes essenciais para preparar suas próprias iguarias japonesas em casa. Com apenas alguns cliques, você terá acesso aos melhores produtos, desde o arroz próprio para sushi até os molhos e temperos autênticos. Nosso E-commerce oferece uma experiência de compra segura e fácil, com entrega rápida e confiável direto na sua porta. Desfrute da conveniência de ter acesso aos sabores da culinária japonesa a qualquer hora e em qualquer lugar. Permita-se mergulhar no mundo da gastronomia japonesa através do nosso E-commerce, onde a qualidade e a autenticidade estão garantidas.
+                </p>
+            </div>
+        </section>
+        <section>
+          <div class="container">
+              <h2>Nossos Produtos</h2>
+                <div class="row">
+                  <div class="column">
+                    <figure onclick="compras('temaki', 'Temaki', 'R$ 16,00')">
+                      <img src="../Imagens/temaki1.jpg" alt="Temaki">
+                      <figcaption>R$ 16,00</figcaption>
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure onclick="compras('tekamaki', 'Tekamaki', 'R$ 1,50')">
+                      <img src="../Imagens/tekamaki.png" alt="Tekamaki">
+                      <figcaption>R$ 1,50</figcaption>
+                    </figure>
+                  </div>
+                  
+                  <div class="column">
+                    <figure onclick="compras('Hot Roll', 'Hot Roll', 'R$ 1,50')">
+                      <img src="../Imagens/hot-roll1.png" alt="Hot Roll">
+                      <figcaption>R$ 1,50</figcaption>
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure onclick="compras('Hot Filadélfia', 'Hot Filadélfia', 'R$ 1,50')">
+                      <img src="../Imagens/hotfiladelfia.jpg" alt="Hot Filadélfia">
+                      <figcaption>R$ 1,50</figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="column">
+                    <figure onclick="compras('Batata Frita', 'Batata Frita', 'R$ 10,00')"> 
+                      <img src="../Imagens/batata.jpg" alt="Batata Frita">
+                      <figcaption>R$ 10,00</figcaption>
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure onclick="compras('Hamburguer', 'Hamburguer', 'R$ 10,00')">
+                      <img src="../Imagens/cheeseburger-delicioso.jpg" alt="Hamburguer">
+                      <figcaption>R$ 10,00</figcaption>
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure onclick="compras('Hot Dog', 'Hot Dog', 'R$ 8,00')">
+                      <img src="../Imagens/hotdog.jpg" alt="Hot Dog">
+                      <figcaption>R$ 8,00</figcaption>
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure onclick="compras('Pizza', 'Pizza', 'R$ 5,00')">
+                      <img src="../Imagens/fatia-de-pizza-fresca-com-calabresa-em-branco.jpg" alt="Pizza">
+                      <figcaption>R$ 5,00</figcaption>
+                    </figure>
+                  </div>
+                </div>
+            </div>              
+        </section>
+        <br>
+        <section id="res"></section>
+    </main>
+    <footer>
+      <div class="footer-container">
+          <div class="logo-column">
+              <img class="logoF" src="../Imagens/favicon.ico" alt="Logo">
+              <h3>Ninja Noms</h3>
+          </div>
+          <div class="column">
+              <h4>Email</h4>
+              <p>Nosso time está aqui para ajudar</p>
+              <p><span>lorem.ipsum@dolor.com</span></p>
+          </div>
+          <div class="column">
+              <h4>Endereço</h4>
+              <p>Venha nos fazer uma visita</p>
+              <p><span>Rua Lorem, Numero 10,Nova Friburgo, Rio de Janeiro, Brasil, 28627989</span></p>
+          </div>
+          <div class="column">
+              <h4>Telefone</h4>
+              <p>De 8:00 até as 18:00</p>
+              <p><span>(22) 99999-9999</span></p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>

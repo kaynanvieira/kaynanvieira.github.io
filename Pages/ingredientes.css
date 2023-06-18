@@ -1,0 +1,147 @@
+/*Header*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #CCCCCC;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu>li{
+    margin-right: 8%;
+    
+}
+
+.menu a:hover{
+    transform: scale(1.5);
+    color: #FF6B00;
+    font-weight: bold;
+}
+
+/*Main*/
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.container_img{
+    flex: 1;
+}
+
+h1, h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    color: #FF6B00;
+}
+.top{
+    padding: 1%;
+    text-align: center;
+    background-color: #FF6B00;
+    color: #ffffff;
+    
+}
+
+.container_right{
+    display: flex;
+    align-items: center;
+    background-color: #19181E;
+}
+.container_left{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
+.container_img{
+    flex: 1;
+}
+
+.product_container_right{
+    color: #ffffff;
+}
+
+
+.product_container_left{
+    color: black;
+}
+
+button{
+    background-color: #FF6B00;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+
+/*Footer*/
+footer {
+    background-color: #19181E;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-column {
+    display: flex;
+    align-items: center;
+}
+
+.logoF {
+    width: 50px;
+    margin-right: 8px;
+}
+
+.column {
+    flex-basis: 15%;
+    margin-bottom: 10px;
+}
+
+footer h3, h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+ footer p {
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+span{
+    color: #FF6B00;
+}

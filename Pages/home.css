@@ -1,0 +1,165 @@
+/*Navbar */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #CCCCCC;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu>li{
+    margin-right: 8%;
+    
+}
+
+.menu a:hover{
+    transform: scale(1.5);
+    color: #FF6B00;
+    font-weight: bold;
+}
+
+/*Centro do site*/
+main{
+    background-color: #CCCCCC;
+}
+#container{
+    height: 500px;
+    background-color:#19181E;
+    color: aliceblue;
+}
+
+.image-content{
+    background-color: chocolate;
+}
+
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .text-content {
+        margin: 2%;
+        height: 500px;
+    }
+    .text-content>h1{
+        font-size: 50px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+    }
+    .text-content>p{
+        font-size: 40px;
+        font-weight: bold;
+        color: #FF6B00;
+    }
+    
+    .image-content {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .image-content img {
+        max-width: 100%;
+    }
+  
+
+
+/*Meio do site*/
+.box_center{
+    align-items: center;
+    text-align: center;
+}
+
+.box_center>h2{
+    font-size: 40px;
+}
+.box_center>p{
+    font-size: 20px;
+}
+
+.box_images{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+  .boxes_images{
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.button{
+    background-color: #FF6B00;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+footer {
+    background-color: #19181E;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-column {
+    display: flex;
+    align-items: center;
+}
+
+.logoF {
+    width: 50px;
+    margin-right: 8px;
+}
+
+.column {
+    flex-basis: 15%;
+    margin-bottom: 10px;
+}
+
+footer h3, h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+ footer p {
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+span{
+    color: #FF6B00;
+}
+
+
